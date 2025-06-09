@@ -1,0 +1,2538 @@
+devices:
+    47323_Miramar_VCE3800HA__10.31.4.1:
+        device_name: 47323_Miramar_VCE3800HA
+        device_ip: 10.31.4.1
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.45346.1.1
+        description: VeloCloud EDGE3X00
+        last_checked: 2024-09-18T05:24:06.524224569Z
+        mib_profile: velocloud-edge.yml
+        provider: kentik-router
+        user_tags:
+            Location: Miramar
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - HOST-RESOURCES-MIB
+            - IF-MIB
+            - VELOCLOUD-EDGE-MIB
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    ACAD Stack 02__10.65.152.106:
+        device_name: ACAD Stack 02
+        device_ip: 10.65.152.106
+        snmp_comm: -dtal3m_
+        use_snmp_v1: false
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.29671.2.360
+        description: Meraki MS355-48X2 Cloud Managed Switch
+        last_checked: 2024-09-18T05:25:27.650568432Z
+        mib_profile: meraki-device.yaml
+        provider: kentik-meraki
+        user_tags:
+            Location: Houston-2-West_Way
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - IF-MIB
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    ADD-C9K-CORE1.dvuadmin.net__10.5.4.10:
+        device_name: ADD-C9K-CORE1
+        device_ip: 10.5.4.10
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2593
+        description: "Cisco IOS Software [Fuji], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 16.8.1a, RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2018 by Cisco Systems, Inc.\r\nCompiled Tue 03-Apr-18 18:49 by mcpre"
+        last_checked: 2024-09-18T05:24:02.22226633Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Addison
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:00:b6:70:39:ea:00
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    ADD-C9K-CORE2.dvuadmin.net__10.5.4.11:
+        device_name: ADD-C9K-CORE2
+        device_ip: 10.5.4.11
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2593
+        description: "Cisco IOS Software [Fuji], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 16.8.1a, RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2018 by Cisco Systems, Inc.\r\nCompiled Tue 03-Apr-18 18:49 by mcpre"
+        last_checked: 2024-09-18T05:25:08.603486413Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Addison
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:00:b6:70:39:f4:80
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    ADD-IDF002-01.dvuadmin.net__10.5.4.45:
+        device_name: ADD-IDF002-SW01
+        device_ip: 10.5.4.45
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2494
+        description: "Cisco IOS Software [Bengaluru], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.6.5, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2023 by Cisco Systems, Inc.\r\nCompiled Wed 25-Jan-23 16:15 by mcpre"
+        last_checked: 2024-09-18T05:25:09.675552833Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Addison
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:e8:d3:22:79:15:00
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    ADD-IDF011-SW01.dvuadmin.net__10.5.4.51:
+        device_name: ADD-IDF011-SW01
+        device_ip: 10.5.4.51
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2494
+        description: "Cisco IOS Software [Bengaluru], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.6.5, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2023 by Cisco Systems, Inc.\r\nCompiled Wed 25-Jan-23 16:15 by mcpre"
+        last_checked: 2024-09-18T05:25:02.523583099Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Addison
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:5c:3e:06:a3:7d:00
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    ADD-IDF114C-SW01.dvuadmin.net__10.5.4.15:
+        device_name: ADD-IDF114C-SW01
+        device_ip: 10.5.4.15
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2494
+        description: "Cisco IOS Software [Amsterdam], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.3.3, RELEASE SOFTWARE (fc7)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2021 by Cisco Systems, Inc.\r\nCompiled Thu 04-Mar-21 12:32 by mcpre"
+        last_checked: 2024-09-18T05:25:09.734716109Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Addison
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:70:35:09:0d:d6:00
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    ADD-IDF129-SW01.dvuadmin.net__10.5.4.61:
+        device_name: ADD-IDF129-SW01
+        device_ip: 10.5.4.61
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2494
+        description: "Cisco IOS Software [Bengaluru], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.6.5, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2023 by Cisco Systems, Inc.\r\nCompiled Wed 25-Jan-23 16:15 by mcpre"
+        last_checked: 2024-09-18T05:25:09.794778159Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Addison
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:4c:42:1e:02:14:80
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    ADD-MDF200-SW01.dvuadmin.net__10.5.4.14:
+        device_name: ADD-MDF200-SW01
+        device_ip: 10.5.4.14
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2494
+        description: "Cisco IOS Software [Amsterdam], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.3.3, RELEASE SOFTWARE (fc7)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2021 by Cisco Systems, Inc.\r\nCompiled Thu 04-Mar-21 12:32 by mcpre"
+        last_checked: 2024-09-18T05:25:09.854433669Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Addison
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:d4:ad:71:d8:f1:00
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    ADD-MDF200-SW02.dvuadmin.net__10.5.4.60:
+        device_name: ADD-MDF200-SW02
+        device_ip: 10.5.4.60
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2494
+        description: "Cisco IOS Software [Bengaluru], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.6.5, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2023 by Cisco Systems, Inc.\r\nCompiled Wed 25-Jan-23 16:15 by mcpre"
+        last_checked: 2024-09-18T05:25:09.91142028Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Addison
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:f8:e5:7e:77:e7:00
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    ADTALEM-334238905-11025-HOUSTON-PRI__10.65.152.11:
+        device_name: HTX-VER-01
+        device_ip: 10.65.152.11
+        snmp_comm: -dtal3m_
+        use_snmp_v1: false
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.42359.2.2.1.1.4.1.2
+        description: Versa Appliance
+        last_checked: 2024-09-18T05:25:36.934210113Z
+        mib_profile: base.yml
+        provider: kentik-default
+        user_tags:
+            Location: Houston-2-West_Way
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - IF-MIB
+            - IP-MIB
+            - OSPF-MIB
+            - TCP-MIB
+            - UDP-MIB
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    ADTALEM-340261969-11125-HOUSTON-PRI__10.33.4.2:
+        device_name: HOUSTON-2-VER-P
+        device_ip: 10.33.4.2
+        snmp_comm: -dtal3m_
+        use_snmp_v1: false
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.42359.2.2.1.1.4.1.2
+        description: Versa Appliance
+        last_checked: 2024-09-18T05:25:02.323634595Z
+        mib_profile: base.yml
+        provider: kentik-default
+        user_tags:
+            Location: Houston-2-West_Way
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - IF-MIB
+            - IP-MIB
+            - OSPF-MIB
+            - TCP-MIB
+            - UDP-MIB
+        engine_id: 80:00:a5:77:01:0a:21:04:02
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    ATL-1FL-MDF-SW01.dvuadmin.net__10.161.36.37:
+        device_name: ATL-1FL-MDF-SW01
+        device_ip: 10.161.36.37
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2494
+        description: "Cisco IOS Software [Bengaluru], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.6.5, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2023 by Cisco Systems, Inc.\r\nCompiled Wed 25-Jan-23 16:15 by mcpre"
+        last_checked: 2024-09-18T05:25:10.713219523Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Atlanta-Sandy_Springs
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:6c:4e:f6:21:32:00
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    ATL-2FL-IDF-SW01.dvuadmin.net__10.161.36.38:
+        device_name: ATL-2FL-IDF-SW01
+        device_ip: 10.161.36.38
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2494
+        description: "Cisco IOS Software [Bengaluru], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.6.5, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2023 by Cisco Systems, Inc.\r\nCompiled Wed 25-Jan-23 16:15 by mcpre"
+        last_checked: 2024-09-18T05:25:10.903806818Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Atlanta-Sandy_Springs
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:d0:09:c8:a6:9c:80
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    ATL-3FL-IDF-SW01.dvuadmin.net__10.161.36.39:
+        device_name: ATL-3FL-IDF-SW01
+        device_ip: 10.161.36.39
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2494
+        description: "Cisco IOS Software [Bengaluru], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.6.5, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2023 by Cisco Systems, Inc.\r\nCompiled Wed 25-Jan-23 16:15 by mcpre"
+        last_checked: 2024-09-18T05:25:11.069283872Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Atlanta-Sandy_Springs
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:6c:4e:f6:21:2b:80
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    Admin Stack 02__10.65.152.104:
+        device_name: ACAD Stack 01
+        device_ip: 10.65.152.104
+        snmp_comm: -dtal3m_
+        use_snmp_v1: false
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.29671.2.360
+        description: Meraki MS355-48X2 Cloud Managed Switch
+        last_checked: 2024-09-18T05:25:30.86802787Z
+        mib_profile: meraki-device.yaml
+        provider: kentik-meraki
+        user_tags:
+            Location: Houston-2-West_Way
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - IF-MIB
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    CHA-CORE-SW01__10.166.68.20:
+        device_name: CHA-CORE-SW01
+        device_ip: 10.166.68.20
+        snmp_comm: -dtal3m_
+        use_snmp_v1: false
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.29671.2.325
+        description: Meraki MS425-16 Cloud Managed Switch
+        last_checked: 2024-09-18T05:25:53.925842285Z
+        mib_profile: meraki-device.yaml
+        provider: kentik-meraki
+        user_tags:
+            Location: Charlotte-2016
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - IF-MIB
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    CHA-CORE-SW02__10.166.68.21:
+        device_name: CHA-CORE-SW02
+        device_ip: 10.166.68.21
+        snmp_comm: -dtal3m_
+        use_snmp_v1: false
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.29671.2.325
+        description: Meraki MS425-16 Cloud Managed Switch
+        last_checked: 2024-09-18T05:25:57.109514715Z
+        mib_profile: meraki-device.yaml
+        provider: kentik-meraki
+        user_tags:
+            Location: Charlotte-2016
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - IF-MIB
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    CHI-2FL-SW01_MDF.dvuadmin.net__10.34.4.11:
+        device_name: CHI-2FL-SW01
+        device_ip: 10.34.4.11
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2494
+        description: "Cisco IOS Software [Amsterdam], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.3.3, RELEASE SOFTWARE (fc7)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2021 by Cisco Systems, Inc.\r\nCompiled Thu 04-Mar-21 12:32 by mcpre"
+        last_checked: 2024-09-18T05:25:37.143226887Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Chicago_Roscoe
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:d4:ad:71:0f:6f:00
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    CHI-3FL-SW01.dvuadmin.net__10.34.4.12:
+        device_name: CHI-3FL-SW01
+        device_ip: 10.34.4.12
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2494
+        description: "Cisco IOS Software [Amsterdam], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.3.3, RELEASE SOFTWARE (fc7)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2021 by Cisco Systems, Inc.\r\nCompiled Thu 04-Mar-21 12:32 by mcpre"
+        last_checked: 2024-09-18T05:25:37.295814975Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Chicago_Roscoe
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:d4:ad:71:d9:d0:00
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    CHI-4FL-SW01.dvuadmin.net__10.34.4.13:
+        device_name: CHI-4FL-SW01
+        device_ip: 10.34.4.13
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2494
+        description: "Cisco IOS Software [Amsterdam], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.3.3, RELEASE SOFTWARE (fc7)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2021 by Cisco Systems, Inc.\r\nCompiled Thu 04-Mar-21 12:32 by mcpre"
+        last_checked: 2024-09-18T05:25:37.402290904Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Chicago_Roscoe
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:d4:ad:71:0f:12:00
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    CHI-CORE-SW01.dvuadmin.net__10.34.4.10:
+        device_name: CHI-CORE-SW01
+        device_ip: 10.34.4.10
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2593
+        description: "Cisco IOS Software [Amsterdam], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.3.3, RELEASE SOFTWARE (fc7)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2021 by Cisco Systems, Inc.\r\nCompiled Thu 04-Mar-21 12:32 by mcpre"
+        last_checked: 2024-09-18T05:25:37.039932721Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Chicago_Roscoe
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:00:b6:70:39:e7:00
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    CHQ-CORE-SW01__10.26.4.13:
+        device_name: CHQ-CORE-SW01
+        device_ip: 10.26.4.13
+        snmp_comm: -dtal3m_
+        use_snmp_v1: false
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.29671.2.325
+        description: Meraki MS425-16 Cloud Managed Switch
+        last_checked: 2024-09-18T05:25:43.801518878Z
+        mib_profile: meraki-device.yaml
+        provider: kentik-meraki
+        user_tags:
+            Location: Chicago_HQ
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - IF-MIB
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    CHQ-CORE-SW02__10.26.4.14:
+        device_name: CHQ-CORE-SW02
+        device_ip: 10.26.4.14
+        snmp_comm: -dtal3m_
+        use_snmp_v1: false
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.29671.2.325
+        description: Meraki MS425-16 Cloud Managed Switch
+        last_checked: 2024-09-18T05:25:40.674813694Z
+        mib_profile: meraki-device.yaml
+        provider: kentik-meraki
+        user_tags:
+            Location: Chicago_HQ
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - IF-MIB
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    CHR-C9K-CORE-02.dvuadmin.net__10.14.4.11:
+        device_name: CHR-C9K-CORE-02
+        device_ip: 10.14.4.11
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2593
+        description: "Cisco IOS Software [Fuji], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 16.9.3, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2019 by Cisco Systems, Inc.\r\nCompiled Wed 20-Mar-19 08:02 by mcpre"
+        last_checked: 2024-09-18T05:25:50.184300824Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Charlotte-2015
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:ac:f5:e6:14:fc:00
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    CHR-C9K-CORE1.dvuadmin.net__10.14.4.10:
+        device_name: CHR-C9K-CORE1
+        device_ip: 10.14.4.10
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2593
+        description: "Cisco IOS Software [Fuji], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 16.8.1a, RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2018 by Cisco Systems, Inc.\r\nCompiled Tue 03-Apr-18 18:49 by mcpre"
+        last_checked: 2024-09-18T05:25:50.347124878Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Charlotte-2015
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:68:ca:e4:62:3c:00
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    CHR2015-ASW-C9K-MDF104-SW1.dvuadmin.net__10.14.4.13:
+        device_name: CHR2015-ASW-C9K-MDF104-SW1
+        device_ip: 10.14.4.13
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2494
+        description: "Cisco IOS Software [Bengaluru], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.6.5, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2023 by Cisco Systems, Inc.\r\nCompiled Wed 25-Jan-23 16:15 by mcpre"
+        last_checked: 2024-09-18T05:25:50.513577146Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Charlotte-2015
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:5c:3e:06:86:75:00
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    CHR2016-ASW-C9K-MDF301-SW1.dvuadmin.net__10.166.68.19:
+        device_name: CHR2016-ASW-C9K-MDF301-SW1
+        device_ip: 10.166.68.19
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2494
+        description: "Cisco IOS Software [Bengaluru], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.6.5, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2023 by Cisco Systems, Inc.\r\nCompiled Wed 25-Jan-23 16:15 by mcpre"
+        last_checked: 2024-09-18T05:25:50.686910456Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Charlotte-2015
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:e8:d3:22:79:3f:80
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    COL-CORE-SW01__10.39.4.13:
+        device_name: COL-CORE-SW01
+        device_ip: 10.39.4.13
+        snmp_comm: -dtal3m_
+        use_snmp_v1: false
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.29671.2.325
+        description: Meraki MS425-16 Cloud Managed Switch
+        last_checked: 2024-09-18T05:25:46.935332159Z
+        mib_profile: meraki-device.yaml
+        provider: kentik-meraki
+        user_tags:
+            Location: Columbus
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - IF-MIB
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    COL-CORE-SW02__10.39.4.14:
+        device_name: COL-CORE-SW02
+        device_ip: 10.39.4.14
+        snmp_comm: -dtal3m_
+        use_snmp_v1: false
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.29671.2.325
+        description: Meraki MS425-16 Cloud Managed Switch
+        last_checked: 2024-09-18T05:25:50.081528505Z
+        mib_profile: meraki-device.yaml
+        provider: kentik-meraki
+        user_tags:
+            Location: Columbus
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - IF-MIB
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    COV-ASW-C9K-GSOC-01.adtalem.com__10.119.4.13:
+        device_name: COV-ASW-C9K-GSOC-01
+        device_ip: 10.119.4.13
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2494
+        description: "Cisco IOS Software [Bengaluru], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.6.5, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2023 by Cisco Systems, Inc.\r\nCompiled Wed 25-Jan-23 16:15 by mcpre"
+        last_checked: 2024-09-18T05:25:57.550594498Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Coverley-Barbados
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:04:eb:40:ca:9c:00
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    COV-ASW-C9K-IDF1A-01.adtalem.com__10.119.4.11:
+        device_name: COV-ASW-C9K-IDF1A-01
+        device_ip: 10.119.4.11
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2494
+        description: "Cisco IOS Software [Bengaluru], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.6.5, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2023 by Cisco Systems, Inc.\r\nCompiled Wed 25-Jan-23 16:15 by mcpre"
+        last_checked: 2024-09-18T05:25:57.264823399Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Coverley-Barbados
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:00:d6:fe:d6:ca:00
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    COV-CSW-C9K-MDF-01.adtalem.com__10.119.10.201:
+        device_name: COV-CSW-C9K-MDF-01
+        device_ip: 10.119.10.201
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2494
+        description: "Cisco IOS Software [Bengaluru], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.6.5, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2023 by Cisco Systems, Inc.\r\nCompiled Wed 25-Jan-23 16:15 by mcpre"
+        last_checked: 2024-09-18T05:25:57.832452486Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Coverley-Barbados
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:00:b8:b3:79:9e:80
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    GCP-ASAv-A.adtalem.com__10.99.254.12:
+        device_name: GCP-ASAv-A
+        device_ip: 10.99.254.12
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.1902
+        description: Cisco Adaptive Security Appliance Version 9.18(4)22
+        last_checked: 2024-09-18T05:24:02.612420415Z
+        mib_profile: cisco-firepower.yml
+        provider: kentik-firepower
+        user_tags:
+            Location: GCP
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - CISCO-ENHANCED-MEMPOOL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-FIREPOWER-EQUIPMENT-MIB
+            - CISCO-FIREPOWER-SM-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-REMOTE-ACCESS-MONITOR-MIB
+            - CISCO-UNIFIED-FIREWALL-MIB
+            - IF-MIB
+        engine_id: 80:00:00:09:fe:23:70:dc:e5:24:5e:34:cf:f8:47:83:74:36:bb:25:75:1b:12:30:22
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    HTX-CORE-SW01__10.65.152.21:
+        device_name: HTX-CORE-SW01
+        device_ip: 10.65.152.21
+        snmp_comm: -dtal3m_
+        use_snmp_v1: false
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.29671.2.325
+        description: Meraki MS425-16 Cloud Managed Switch
+        last_checked: 2024-09-18T05:25:17.989711439Z
+        mib_profile: meraki-device.yaml
+        provider: kentik-meraki
+        user_tags:
+            Location: Houston-2-West_Way
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - IF-MIB
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    HTX-CORE-SW02__10.65.152.22:
+        device_name: HTX-CORE-SW02
+        device_ip: 10.65.152.22
+        snmp_comm: -dtal3m_
+        use_snmp_v1: false
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.29671.2.325
+        description: Meraki MS425-16 Cloud Managed Switch
+        last_checked: 2024-09-18T05:25:14.774930752Z
+        mib_profile: meraki-device.yaml
+        provider: kentik-meraki
+        user_tags:
+            Location: Houston-2-West_Way
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - IF-MIB
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    JAX-CORE-SW01.dvuadmin.net__10.37.4.10:
+        device_name: JAX-C9K-CORE
+        device_ip: 10.37.4.10
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2593
+        description: "Cisco IOS Software [Gibraltar], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 16.12.4, RELEASE SOFTWARE (fc5)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2020 by Cisco Systems, Inc.\r\nCompiled Thu 09-Jul-20 21:49 by mcpre"
+        last_checked: 2024-09-18T05:24:19.089524735Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Jacksonville
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:68:ca:e4:62:4c:00
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    JAX-IDF-SW01.dvuadmin.net__10.37.4.30:
+        device_name: JAX-IDF-SW01
+        device_ip: 10.37.4.30
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2494
+        description: "Cisco IOS Software [Bengaluru], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.6.5, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2023 by Cisco Systems, Inc.\r\nCompiled Wed 25-Jan-23 16:15 by mcpre"
+        last_checked: 2024-09-18T05:24:19.386601983Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Jacksonville
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:5c:b1:2e:88:d4:00
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    JAX-MDF-SW01.dvuadmin.net__10.37.4.29:
+        device_name: JAX-MDF-SW01
+        device_ip: 10.37.4.29
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2494
+        description: "Cisco IOS Software [Bengaluru], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.6.5, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2023 by Cisco Systems, Inc.\r\nCompiled Wed 25-Jan-23 16:15 by mcpre"
+        last_checked: 2024-09-18T05:24:19.239362077Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Jacksonville
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:50:49:21:8c:7c:00
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    LAB Stack 01__10.65.152.107:
+        device_name: Admin Stack 02
+        device_ip: 10.65.152.107
+        snmp_comm: -dtal3m_
+        use_snmp_v1: false
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.29671.2.360
+        description: Meraki MS355-48X2 Cloud Managed Switch
+        last_checked: 2024-09-18T05:25:21.203518938Z
+        mib_profile: meraki-device.yaml
+        provider: kentik-meraki
+        user_tags:
+            Location: Houston-2-West_Way
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - IF-MIB
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    LES-CSW-N9K-MDF-01.adtalem.com__10.118.4.2:
+        device_name: LES-CSW-N9K-MDF-01
+        device_ip: 10.118.4.2
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.12.3.1.3.1812
+        description: Cisco NX-OS(tm) Nexus9000 C93180YC-EX chassis, Software (NXOS 32-bit), Version 9.3(9), RELEASE SOFTWARE Copyright (c) 2002-2022 by Cisco Systems, Inc. Compiled 2/4/2022 7:00:00
+        last_checked: 2024-09-18T05:24:02.880806054Z
+        mib_profile: cisco-nexus.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Barbados_LESC
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-BGP4-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-SYSTEM-EXT-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:b7:71:2d:f6:d0
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    LES-CSW-N9K-MDF-02.adtalem.com__10.118.4.1:
+        device_name: LES-CSW-N9K-MDF-02
+        device_ip: 10.118.4.1
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.12.3.1.3.1812
+        description: Cisco NX-OS(tm) Nexus9000 C93180YC-EX chassis, Software (NXOS 32-bit), Version 9.3(9), RELEASE SOFTWARE Copyright (c) 2002-2022 by Cisco Systems, Inc. Compiled 2/4/2022 7:00:00
+        last_checked: 2024-09-18T05:24:03.25167657Z
+        mib_profile: cisco-nexus.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Barbados_LESC
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-BGP4-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-SYSTEM-EXT-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:b7:71:74:24:20
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    NBR-ASW-IDF1-SW1.dvuadmin.net__10.41.4.35:
+        device_name: NBR-ASW-MDF-SW1
+        device_ip: 10.41.4.35
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2494
+        description: "Cisco IOS Software [Bengaluru], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.6.5, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2023 by Cisco Systems, Inc.\r\nCompiled Wed 25-Jan-23 16:15 by mcpre"
+        last_checked: 2024-09-18T05:24:18.952764375Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: North_Brunswick
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:5c:b1:2e:7d:5f:80
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    NBR-ASW-MDF-SW1.dvuadmin.net__10.41.4.37:
+        device_name: NBR-ASW-IDF1-SW1
+        device_ip: 10.41.4.37
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2494
+        description: "Cisco IOS Software [Bengaluru], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.6.5, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2023 by Cisco Systems, Inc.\r\nCompiled Wed 25-Jan-23 16:15 by mcpre"
+        last_checked: 2024-09-18T05:24:19.531120152Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: North_Brunswick
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:5c:b1:2e:1b:5c:80
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    NBR-C9K-CORE1.dvuadmin.net__10.41.4.10:
+        device_name: NBR-C9K-CORE1
+        device_ip: 10.41.4.10
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2593
+        description: "Cisco IOS Software [Fuji], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 16.8.1a, RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2018 by Cisco Systems, Inc.\r\nCompiled Tue 03-Apr-18 18:49 by mcpre"
+        last_checked: 2024-09-18T05:08:04.822184005Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: North_Brunswick
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:68:ca:e4:62:48:80
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    NBR-C9K-CORE2.dvuadmin.net__10.41.4.11:
+        device_name: NBR-C9K-CORE2
+        device_ip: 10.41.4.11
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2593
+        description: "Cisco IOS Software [Fuji], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 16.8.1a, RELEASE SOFTWARE (fc1)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2018 by Cisco Systems, Inc.\r\nCompiled Tue 03-Apr-18 18:49 by mcpre"
+        last_checked: 2024-09-18T05:22:43.94298071Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: North_Brunswick
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:00:b6:70:39:ec:00
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    NetworkServices-us-east-2-palo-1__10.239.2.230:
+        device_name: NetworkServices-us-east-2-palo-1
+        device_ip: 10.239.2.230
+        snmp_comm: -dtal3m_
+        use_snmp_v1: false
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.25461.2.3.29
+        description: Palo Alto Networks VM-Series firewall
+        last_checked: 2024-09-18T05:26:04.377997458Z
+        mib_profile: palo-alto.yml
+        provider: kentik-firewall
+        user_tags:
+            Location: AWS
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - ENTITY-SENSOR-MIB
+            - HOST-RESOURCES-MIB
+            - IF-MIB
+            - OSPF-MIB
+            - PAN-COMMON-MIB
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    NetworkServices-us-east-2-pano__10.239.2.231:
+        device_name: NetworkServices-us-east-2-pano
+        device_ip: 10.239.2.231
+        snmp_comm: -dtal3m_
+        use_snmp_v1: false
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.25461.2.3.7
+        description: Palo Alto Networks Panorama server
+        last_checked: 2024-09-18T05:26:01.193989312Z
+        mib_profile: palo-alto.yml
+        provider: kentik-firewall
+        user_tags:
+            Location: AWS
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - ENTITY-SENSOR-MIB
+            - HOST-RESOURCES-MIB
+            - IF-MIB
+            - OSPF-MIB
+            - PAN-COMMON-MIB
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    PHO-CORE-SW01.dvuadmin.net__10.40.4.10:
+        device_name: PHO-CORE-SW01
+        device_ip: 10.40.4.10
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2593
+        description: "Cisco IOS Software [Cupertino], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.9.3, RELEASE SOFTWARE (fc6)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2023 by Cisco Systems, Inc.\r\nCompiled Tue 14-Mar-23 18:26 by mcpre"
+        last_checked: 2024-09-18T05:25:11.517925464Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Phoenix
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:c0:2c:17:09:1a:80
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    PHO-IDF-SW01.dvuadmin.net__10.40.4.12:
+        device_name: PHO-IDF-SW01
+        device_ip: 10.40.4.12
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2494
+        description: "Cisco IOS Software [Bengaluru], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.6.5, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2023 by Cisco Systems, Inc.\r\nCompiled Wed 25-Jan-23 16:15 by mcpre"
+        last_checked: 2024-09-18T05:25:11.363534518Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Phoenix
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:34:88:18:2c:a0:80
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    PHO-MDF-SW01.dvuadmin.net__10.40.4.11:
+        device_name: PHO-MDF-SW01
+        device_ip: 10.40.4.11
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2494
+        description: "Cisco IOS Software [Bengaluru], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.6.5, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2023 by Cisco Systems, Inc.\r\nCompiled Wed 25-Jan-23 16:15 by mcpre"
+        last_checked: 2024-09-18T05:25:11.212822963Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Phoenix
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:34:88:18:3f:8e:80
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    STB-CORE-SW01__10.43.4.10:
+        device_name: STB-CORE-SW01
+        device_ip: 10.43.4.10
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2593
+        description: "Cisco IOS Software [Bengaluru], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.6.3, RELEASE SOFTWARE (fc4)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2022 by Cisco Systems, Inc.\r\nCompiled Wed 30-Mar-22 23:09 by mcpre"
+        last_checked: 2024-09-18T05:25:02.42434633Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Stockbridge
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:cc:79:d7:83:81:00
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    Security-02__10.65.152.102:
+        device_name: Security-02
+        device_ip: 10.65.152.102
+        snmp_comm: -dtal3m_
+        use_snmp_v1: false
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.29671.2.360
+        description: Meraki MS355-48X2 Cloud Managed Switch
+        last_checked: 2024-09-18T05:25:24.433091214Z
+        mib_profile: meraki-device.yaml
+        provider: kentik-meraki
+        user_tags:
+            Location: Houston-2-West_Way
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - IF-MIB
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    Switch.dvuadmin.net__10.34.4.14:
+        device_name: Switch.dvuadmin.net
+        device_ip: 10.34.4.14
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2494
+        description: "Cisco IOS Software [Amsterdam], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.3.3, RELEASE SOFTWARE (fc7)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2021 by Cisco Systems, Inc.\r\nCompiled Thu 04-Mar-21 12:32 by mcpre"
+        last_checked: 2024-09-18T05:25:37.504502195Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Chicago_Roscoe
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:d4:ad:71:90:9a:80
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    VIE-1FL-SW01.dvuadmin.net__10.15.4.14:
+        device_name: VIE-1FL-SW01
+        device_ip: 10.15.4.14
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2494
+        description: "Cisco IOS Software [Amsterdam], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.3.3, RELEASE SOFTWARE (fc7)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2021 by Cisco Systems, Inc.\r\nCompiled Thu 04-Mar-21 12:32 by mcpre"
+        last_checked: 2024-09-18T05:25:10.413624948Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Vienna-Tysons_Corner
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:c0:64:e4:ff:23:80
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    VIE-7FL-SW01.dvuadmin.net__10.15.4.13:
+        device_name: VIE-7FL-SW01
+        device_ip: 10.15.4.13
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2494
+        description: "Cisco IOS Software [Amsterdam], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.3.3, RELEASE SOFTWARE (fc7)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2021 by Cisco Systems, Inc.\r\nCompiled Thu 04-Mar-21 12:32 by mcpre"
+        last_checked: 2024-09-18T05:25:10.002306087Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Vienna-Tysons_Corner
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:6c:41:0e:53:84:80
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    VIE-8FL-SW01.dvuadmin.net__10.15.4.12:
+        device_name: VIE-8FL-SW01
+        device_ip: 10.15.4.12
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2494
+        description: "Cisco IOS Software [Amsterdam], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.3.3, RELEASE SOFTWARE (fc7)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2021 by Cisco Systems, Inc.\r\nCompiled Thu 04-Mar-21 12:32 by mcpre"
+        last_checked: 2024-09-18T05:25:10.143998366Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Vienna-Tysons_Corner
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:30:8b:b2:04:29:00
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    VIE-CORE-SW01.dvuadmin.net__10.15.4.10:
+        device_name: VIE-CORE-SW01
+        device_ip: 10.15.4.10
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.2593
+        description: "Cisco IOS Software [Fuji], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 16.9.4, RELEASE SOFTWARE (fc2)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2019 by Cisco Systems, Inc.\r\nCompiled Thu 22-Aug-19 18:14 by mcpre"
+        last_checked: 2024-09-18T05:25:10.273488002Z
+        mib_profile: cisco-catalyst.yml
+        provider: kentik-switch
+        user_tags:
+            Location: Vienna-Tysons_Corner
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:00:2f:5c:10:7d:79
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    VIE-VOICE-RT01.dvuadmin.net__10.15.4.15:
+        device_name: VIE-VOICE-RT01
+        device_ip: 10.15.4.15
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.1999
+        description: "Cisco IOS Software [Fuji], ISR Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 16.9.2, RELEASE SOFTWARE (fc4)\r\nTechnical Support: http://www.cisco.com/techsupport\r\nCopyright (c) 1986-2018 by Cisco Systems, Inc.\r\nCompiled Mon 05-Nov-18 19:31 by mcpre"
+        last_checked: 2024-09-18T05:25:10.546541069Z
+        mib_profile: cisco-asr.yml
+        provider: kentik-router
+        user_tags:
+            Location: Vienna-Tysons_Corner
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - BGP4-MIB
+            - CISCO-AUTH-FRAMEWORK-MIB
+            - CISCO-ENTITY-FRU-CONTROL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-ENVMON-MIB
+            - CISCO-HSRP-MIB
+            - CISCO-IF-EXTENSION-MIB
+            - CISCO-MEMORY-POOL-MIB
+            - CISCO-NTP-MIB
+            - CISCO-POWER-ETHERNET-EXT-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-RTTMON-MIB
+            - CISCO-STACKWISE-MIB
+            - CISCO-VIRTUAL-SWITCH-MIB
+            - CISCO-VOICE-DIAL-CONTROL-MIB
+            - IF-MIB
+            - OSPF-MIB
+        engine_id: 80:00:00:09:03:00:c4:c6:03:b9:a0:d0
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+    aws-east2-asa-vpn-az-a.adtalem.com__10.239.2.232:
+        device_name: aws-east2-asa-vpn-az-a
+        device_ip: 10.239.2.232
+        use_snmp_v1: false
+        snmp_v3:
+            user_name: atgetechsnmpv3
+            authentication_protocol: SHA
+            authentication_passphrase: '!P0lling4all!'
+            privacy_protocol: AES
+            privacy_passphrase: '!P0lling4all!'
+            context_engine_id: ""
+            context_name: ""
+        debug: false
+        port: 161
+        oid: .1.3.6.1.4.1.9.1.1902
+        description: Cisco Adaptive Security Appliance Version 9.18(4)22
+        last_checked: 2024-07-11T19:57:27.753213717Z
+        mib_profile: cisco-firepower.yml
+        provider: kentik-firepower
+        user_tags:
+            Location: AWS
+            container_service: snmp-polling-container
+        discovered_mibs:
+            - CISCO-ENHANCED-MEMPOOL-MIB
+            - CISCO-ENTITY-SENSOR-MIB
+            - CISCO-FIREPOWER-EQUIPMENT-MIB
+            - CISCO-FIREPOWER-SM-MIB
+            - CISCO-PROCESS-MIB
+            - CISCO-REMOTE-ACCESS-MONITOR-MIB
+            - IF-MIB
+        engine_id: 80:00:00:09:fe:b4:ad:35:4f:7a:27:5f:82:dd:bc:38:4f:4b:eb:25:18:5a:b9:fb:ba
+        match_attributes: {}
+        monitor_admin_shut: false
+        no_use_bulkwalkall: false
+        purge_after_num: 0
+trap:
+    listen: 0.0.0.0:1620
+    community: ""
+    version: ""
+    transport: ""
+    v3_config: null
+    trap_only: false
+    drop_undefined: false
+    endpoint: ""
+    endpoint_port: 0
+discovery:
+    cidrs:
+        - 10.5.4.10/32
+        - 10.5.4.14/32
+        - 10.99.254.12/32
+        - 10.15.4.14/32
+        - 10.118.4.2/32
+        - 10.118.4.1/32
+        - 10.31.4.1/32
+        - 10.41.4.10/32
+        - 10.41.4.11/32
+        - 10.41.4.35/32
+        - 10.37.4.10/32
+        - 10.37.4.29/32
+        - 10.37.4.30/32
+        - 10.41.4.37/32
+        - 10.239.2.232/32
+        - 10.239.2.230/32
+        - 10.239.3.230/32
+        - 10.239.2.231/32
+        - 10.65.152.12/32
+        - 10.65.152.11/32
+        - 10.33.4.2/32
+        - 10.43.4.10/32
+        - 10.5.4.51/32
+        - 10.5.4.10/32
+        - 10.5.4.11/32
+        - 10.5.4.45/32
+        - 10.5.4.15/32
+        - 10.5.4.61/32
+        - 10.5.4.14/32
+        - 10.5.4.60/32
+        - 10.15.4.13/32
+        - 10.15.4.12/32
+        - 10.15.4.10/32
+        - 10.15.4.14/32
+        - 10.15.4.15/32
+        - 10.161.36.37/32
+        - 10.161.36.38/32
+        - 10.161.36.39/32
+        - 10.40.4.11/32
+        - 10.40.4.12/32
+        - 10.40.4.10/32
+        - 10.65.152.22/32
+        - 10.65.152.21/32
+        - 10.65.152.107/32
+        - 10.65.152.102/32
+        - 10.65.152.106/32
+        - 10.65.152.104/32
+        - 10.65.152.11/32
+        - 10.34.4.10/32
+        - 10.34.4.11/32
+        - 10.34.4.12/32
+        - 10.34.4.13/32
+        - 10.34.4.14/32
+        - 10.26.4.14/32
+        - 10.26.4.13/32
+        - 10.39.4.13/32
+        - 10.39.4.14/32
+        - 10.14.4.11/32
+        - 10.14.4.10/32
+        - 10.14.4.13/32
+        - 10.166.68.19/32
+        - 10.166.68.20/32
+        - 10.166.68.21/32
+        - 10.119.4.11/32
+        - 10.119.4.13/32
+        - 10.119.10.201/32
+        - 10.239.2.231/32
+        - 10.239.2.230/32
+        - 10.65.145.50/32
+        - 10.65.145.51/32
+        - 10.70.145.27/32
+        - 10.70.145.26/32
+        - 10.70.145.25/32
+        - 10.70.145.21/32
+        - 10.70.145.22/32
+        - 10.70.145.24/32
+        - 10.70.145.23/32
+        - 10.27.4.25/32
+        - 10.27.4.26/32
+        - 10.27.4.27/32
+        - 10.37.4.10/32
+        - 10.37.4.29/32
+        - 10.36.4.19/32
+        - 10.36.4.20/32
+        - 10.36.4.18/32
+        - 10.36.4.16/32
+        - 10.161.68.18/32
+        - 10.161.68.20/32
+        - 10.161.68.21/32
+        - 10.41.4.10/32
+        - 10.166.36.13/32
+        - 10.166.36.14/32
+        - 10.38.4.35/32
+        - 10.38.4.36/32
+        - 10.166.4.21/32
+        - 10.166.4.22/32
+        - 10.35.4.13/32
+        - 10.35.4.14/32
+        - 10.35.4.45/32
+        - 10.35.4.23/32
+        - 10.27.4.10/32
+        - 10.161.68.19/32
+        - 10.118.4.1/32
+        - 10.118.4.2/32
+        - 10.118.4.3/32
+        - 10.41.4.11/32
+        - 10.41.4.37/32
+        - 10.41.4.36/32
+        - 10.41.4.35/32
+        - 10.160.228.21/32
+        - 10.160.228.20/32
+        - 10.160.228.17/32
+        - 10.160.228.18/32
+        - 10.166.36.29/32
+        - 10.166.36.32/32
+        - 10.45.4.10/32
+        - 10.45.4.21/32
+        - 10.45.4.22/32
+        - 10.120.4.142/32
+        - 10.120.4.133/32
+        - 10.120.4.95/32
+        - 10.120.4.93/32
+        - 10.120.4.98/32
+        - 10.120.4.154/32
+        - 10.120.4.158/32
+        - 10.120.4.151/32
+        - 10.120.4.148/32
+        - 10.120.4.153/32
+        - 10.120.4.97/32
+        - 10.120.4.134/32
+        - 10.120.4.136/32
+        - 10.120.4.145/32
+        - 10.120.4.161/32
+        - 10.120.4.152/32
+        - 10.120.4.106/32
+        - 10.120.4.107/32
+        - 10.120.4.125/32
+        - 10.120.4.114/32
+        - 10.120.4.253/32
+        - 10.120.4.112/32
+        - 10.27.4.11/32
+        - 10.118.4.11/32
+        - 10.118.4.12/32
+        - 10.118.4.13/32
+        - 10.118.4.14/32
+        - 10.118.4.15/32
+        - 10.118.4.16/32
+        - 10.118.4.17/32
+        - 10.118.4.18/32
+        - 10.118.4.19/32
+        - 10.118.4.20/32
+        - 10.118.4.21/32
+        - 10.118.4.22/32
+        - 10.118.4.23/32
+        - 10.118.4.24/32
+        - 10.118.4.25/32
+        - 10.120.224.146/32
+        - 10.120.224.130/32
+        - 10.120.4.2/32
+        - 10.120.4.3/32
+        - 10.120.4.123/32
+        - 10.120.4.124/32
+        - 10.120.4.155/32
+        - 10.120.4.121/32
+        - 10.120.4.144/32
+        - 10.120.4.115/32
+        - 10.120.4.116/32
+        - 10.120.4.150/32
+        - 10.38.4.37/32
+        - 10.38.4.38/32
+        - 10.38.4.39/32
+        - 10.126.4.37/32
+        - 10.126.4.47/32
+        - 10.126.4.48/32
+        - 10.126.4.51/32
+        - 10.126.4.5/32
+        - 10.126.4.10/32
+        - 10.126.4.12/32
+        - 10.126.4.53/32
+        - 10.126.4.52/32
+        - 10.126.4.17/32
+        - 10.126.4.11/32
+        - 10.126.4.254/32
+        - 10.126.4.3/32
+        - 10.126.4.38/32
+        - 10.126.4.43/32
+        - 10.126.224.129/32
+        - 10.126.4.28/32
+        - 10.126.4.49/32
+        - 10.126.4.45/32    
+    ignore_list: []
+    debug: false
+    ports:
+        - 161
+    default_communities:
+        - -dtal3m_
+    use_snmp_v1: false
+    default_v3:
+        user_name: atgetechsnmpv3
+        authentication_protocol: SHA
+        authentication_passphrase: '!P0lling4all!'
+        privacy_protocol: AES
+        privacy_passphrase: '!P0lling4all!'
+        context_engine_id: ""
+        context_name: ""
+    add_devices: true
+    add_mibs: true
+    threads: 4
+    replace_devices: true
+    check_all_ips: true
+    kentik: null
+global:
+    poll_time_sec: 300
+    drop_if_outside_poll: false
+    mib_profile_dir: /etc/ktranslate/profiles
+    mibs_db: ""
+    mibs_enabled:
+        - BGP4-MIB
+        - CISCO-AUTH-FRAMEWORK-MIB
+        - CISCO-BGP4-MIB
+        - CISCO-ENHANCED-MEMPOOL-MIB
+        - CISCO-ENTITY-FRU-CONTROL-MIB
+        - CISCO-ENTITY-SENSOR-MIB
+        - CISCO-ENVMON-MIB
+        - CISCO-FIREPOWER-EQUIPMENT-MIB
+        - CISCO-FIREPOWER-SM-MIB
+        - CISCO-HSRP-MIB
+        - CISCO-IF-EXTENSION-MIB
+        - CISCO-MEMORY-POOL-MIB
+        - CISCO-NTP-MIB
+        - CISCO-POWER-ETHERNET-EXT-MIB
+        - CISCO-PROCESS-MIB
+        - CISCO-REMOTE-ACCESS-MONITOR-MIB
+        - CISCO-RTTMON-MIB
+        - CISCO-STACKWISE-MIB
+        - CISCO-SYSTEM-EXT-MIB
+        - CISCO-UNIFIED-FIREWALL-MIB
+        - CISCO-VIRTUAL-SWITCH-MIB
+        - CISCO-VOICE-DIAL-CONTROL-MIB
+        - ENTITY-SENSOR-MIB
+        - HOST-RESOURCES-MIB
+        - IF-MIB
+        - IP-MIB
+        - OSPF-MIB
+        - PAN-COMMON-MIB
+        - SNMP-FRAMEWORK-MIB
+        - TCP-MIB
+        - UDP-MIB
+        - VELOCLOUD-EDGE-MIB
+    timeout_ms: 3000
+    retries: 0
+    global_v3: null
+    response_time: true
+    purge_devices_after_num: 0
+    no_device_hardcoded_oids: false
+    user_tags: {}
+    match_attributes: {}
+    providers: {}
+    jitter_time_sec: 0
+    fast_poll: false
+    watch_profile_changes: false
+    save_mds_cache: false
